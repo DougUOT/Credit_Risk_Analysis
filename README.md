@@ -78,6 +78,70 @@ Follow below the goals for this project:
 
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Module17_2_3.PNG)
 
+## ANALYSIS RESULTS
+
+There is a bulleted list that describes the balanced accuracy score and the precision and recall scores of all six machine learning models
+
+### Random Over Sampler (Naïve Radom Oversampling
+
+ * Balance Accuracy Score: 0.6835
+ * Model: Logistic Regression
+
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture1_RandomOverSampling.PNG)
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture1_1_RandomOverSampling.PNG)
+
+### SMOTE Oversampling
+
+ * Balance Accuracy Score: 0.6277
+ * Model: Logistic Regression
+
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture2_SMOTE_Oversampling.PNG)
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture2_1_SMOTE_Oversampling.PNG)
+
+### Cluster Centroids
+
+ * Balance Accuracy Score: 0.5297
+ * Model: Logistic Regression
+
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture3_ClusterCentroids.PNG)
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture3_1_ClusterCentroids.PNG)
+
+
+### SMOTEENN
+
+ * Balance Accuracy Score: 0.6548
+ * Model: Logistic Regression
+
+
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture4_SMOTEENN.PNG)
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture4_1_SMOTEENN.PNG)
+
+
+### Balanced Random Forest Classifier
+
+ * Balance Accuracy Score: 0.8731
+ * Model: Accuracy Score
+
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture5_BalanceRandomForestClassifier.PNG)
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture5_1_BalanceRandomForestClassifier.PNG)
+
+
+### Easy Ensemlbe AdaBoost Classifier
+
+ * Balance Accuracy Score: 0.9424
+ * Model: Accuracy Score
+
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture6_EasyEnsembleClassifier.PNG)
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture6_1_EasyEnsembleClassifier.PNG)
+
+
+
 ## SUMMARY
 
-## RECOMMENDATIONS AND FUTURE ANALYSIS
+ * There is a summary of the results
+
+![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Capture_Summary_and_Results.PNG)
+
+## RECOMMENDATIONS
+
+ * There is a recommendation on which model to use, or there is no recommendation with a justification
