@@ -30,21 +30,52 @@ Follow below the goals for this project:
 
 ## Objective 1: Use Resampling Models to Predict Credit Risk
 
+  * Create the training variables by converting the string values into numerical ones using the get_dummies() method.
+  * Create the target variables.
+  * Check the balance of the target variables.
+
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Module17_1_1.PNG)
+
+  * Use the LogisticRegression classifier to make predictions and evaluate the model’s performance.
+
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Module17_1_2.PNG)
+
+  * Calculate the accuracy score of the model.
+  * Generate a confusion matrix.
+  * Print out the imbalanced classification report.
+
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Module17_1_3.PNG)
 
 
 ## Objective 2: Use the SMOTEENN Algorithm to Predict Credit Risk
 
+  * Using the information we have provided in the starter code, resample the training data using the SMOTEENN algorithm.
+
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Module17_1_4.PNG)
+
+  * After the data is resampled, use the LogisticRegression classifier to make predictions and evaluate the model’s performance.
+  * Calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
+
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Module17_1_5.PNG)
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Module17_1_6.PNG)
 
 ## Objective 3: Use Ensemble Classifiers to Predict Credit Risk
 
+  * Create the training variables by converting the string values into numerical ones using the get_dummies() method.
+  * Create the target variables.
+  * Check the balance of the target variables.
+
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Module17_2_1.PNG)
+
+  * Resample the training data using the BalancedRandomForestClassifier algorithm with 100 estimators.
+  * After the data is resampled, calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
+  * Print the feature importance sorted in descending order (from most to least important feature), along with the feature score.
+
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Module17_2_2.PNG)
+
+  * Next, resample the training data using the EasyEnsembleClassifier algorithm with 100 estimators.
+  * After the data is resampled, calculate the accuracy score of the model, generate a confusion matrix, and then print out the imbalanced classification report.
+
 ![](https://github.com/DougUOT/Credit_Risk_Analysis/blob/main/Resources/Images/Module17_2_3.PNG)
 
 ## SUMMARY
