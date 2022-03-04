@@ -144,4 +144,11 @@ There is a bulleted list that describes the balanced accuracy score and the prec
 
 ## RECOMMENDATIONS
 
- * There is a recommendation on which model to use, or there is no recommendation with a justification
+ * There is a recommendation on which model to use, or there is no recommendation with a justification.
+
+In general view, the Random Over Sampler (Naive Radom Oversampling), SMOTE Oversampling, Cluster Centroids, and Cluster Centroids resulted in a low F1 score, all below 0.02. We can conclude that considering a helpful method for pondering the F1 score, a pronounced imbalance between sensitivity and accuracy will yield a low F1 score.
+
+For another hand, Balanced Random Forest Classifier and Easy Ensemble AdaBoost Classifier has high results of precision (pre), recall (rec), specificity (spe), F1-score (f1), geo (Geometric Mean), Index Balanced Accuracy (iba) and support (sup) when we compared with others models.
+
+The Easy Ensemble AdaBoost Classifier has high results regarding the metrics for measuring the performance of imbalanced classes. Also, this model has the highest balance accuracy score with 0.9424. It means that it has the highest exactness of data analysis or includes the correct forecast in Python Scikit learn, so we recommend this model.
+
