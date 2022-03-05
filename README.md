@@ -12,8 +12,6 @@ We will apply machine learning to solve a real-world challenge: credit card risk
 
 Using the credit card credit dataset from LendingClub, a peer-to-peer lending services company, we’ll oversample the data using the RandomOverSampler and SMOTE algorithms, and undersample the data using the ClusterCentroids algorithm. Then, we’ll use a combinatorial approach of over-and undersampling using the SMOTEENN algorithm. Next, we’ll compare two new machine learning models that reduce bias, BalancedRandomForestClassifier and EasyEnsembleClassifier, to predict credit risk. Once we’re done, we’ll evaluate the performance of these models and make a written recommendation on whether they should be used to predict credit risk.
 
-This assignment is related to the Bootcamp Data Analytics from the University of Toronto. It comprises the goals below for this module: 
-
 Follow below the goals for this project:
 
 1) Objective 1: Use Resampling Models to Predict Credit Risk
